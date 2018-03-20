@@ -1,0 +1,179 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-17 13:03:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-18 23:37:10
+*/
+@import url("base.css");
+body{
+	height: 20rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 590355 */
+  src: url('https://at.alicdn.com/t/font_590355_wc2d3aoia1nhfr.eot');
+  src: url('https://at.alicdn.com/t/font_590355_wc2d3aoia1nhfr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_590355_wc2d3aoia1nhfr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_590355_wc2d3aoia1nhfr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_590355_wc2d3aoia1nhfr.svg#iconfont') format('svg');
+}
+.iconfont
+{
+	font-family:'iconfont';
+}
+i
+{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 5rem;
+	background: #fff;
+	position: relative;
+}
+.top img{
+	width: 100%;
+	height: 100%;
+}
+.return{
+    width: 1rem;
+    height: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.7rem;
+}
+.icon1{
+	font-size: 0.6rem;
+	color: #fff;
+	line-height: 1rem;
+	margin-left: 0.2rem;
+}
+.enter{
+	width: 8.5rem;
+	height: 15rem;
+	background: #fff;
+	margin-left: 1rem;
+}
+.box{
+	width: 100%;
+	height: 1.5rem;
+	margin-top: 0.5rem;
+}
+input{
+	width: 100%;
+	height: 1.5rem;
+	border: none;
+	border-bottom: 0.03rem solid #444;
+	outline: none;
+}
+.access{
+	display: block;
+    width: 8.5rem;
+    height: 1.3rem;
+    background: black;
+    border: none;
+    border-radius: 0.1rem;
+    font-size: 0.5rem;
+    color: #fff;
+    margin: 1rem auto 0;
+}
+.login{
+	display: block;
+    width: 8.5rem;
+    height: 1.3rem;
+    background: #cccccc;
+    border: none;
+    border-radius: 0.1rem;
+    font-size: 0.5rem;
+    color: #fff;
+    margin: 0.5rem auto 0;
+}
+.zhuci{
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.6rem;
+}
+.left,.right{
+	font-size: 0.45rem;
+	color: #434343;
+}
+.zi{
+	width: 100%;
+	height: 1.5rem;
+	font-size: 0.45rem;
+	color: #353535;
+	text-align: center;
+	margin-top: 0.7rem;
+}
+.fangfa{
+	width: 100%;
+	padding-left: 0.5rem;
+	background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.icon2{
+	color: #539ffd;
+	font-size: 0.8rem;
+}
+.icon3{
+	color: #ed2339;
+	font-size: 0.8rem;
+}
+.icon4{
+	color: #62ca73;
+	font-size: 0.8rem;
+	margin-right: 1rem;
+}
+
+/* tab */
+.tab{
+	width: 100%;
+	height: 1.45rem;
+	background: #fefefe;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #f2f2f2;
+}
+.shouye{
+	width: calc(100%/4);
+	height: 100%;
+	background: #fefefe;
+	float: left;
+}
+.icon9{
+	font-size: 0.66rem;
+	color: #FFB6C1;
+	margin-left: 0.18rem;
+}
+.icon10{
+	font-size: 0.66rem;
+	color: #b8aaa9;
+	margin-left: 0.18rem;
+}
+.boxx{
+	display: block;
+	width: 1rem;
+	height: 1.2rem;
+	margin: 0.1rem auto 0;
+}
+.boxx p{
+	font-size: 0.35rem;
+	color: #FFB6C1;
+	text-align: center;
+}
+.boxx1{
+	display: block;
+	width: 1rem;
+	height: 1.2rem;
+	margin: 0.1rem auto 0;
+}
+.boxx1 p{
+	font-size: 0.35rem;
+	color: #303030;
+	text-align: center;
+}
